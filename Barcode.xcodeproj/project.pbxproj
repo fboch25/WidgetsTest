@@ -146,6 +146,7 @@
 				TargetAttributes = {
 					FC1331D71CFF6920008C45AF = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = LM2J977ASP;
 					};
 					FC1331EB1CFF6920008C45AF = {
 						CreatedOnToolsVersion = 7.2;
@@ -327,6 +328,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Barcode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Bocci.Barcode;
@@ -338,6 +340,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Barcode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Bocci.Barcode;
@@ -388,6 +391,7 @@
 				FC1331F71CFF6920008C45AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC1331F81CFF6920008C45AF /* Build configuration list for PBXNativeTarget "BarcodeTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +400,7 @@
 				FC1331FA1CFF6920008C45AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
